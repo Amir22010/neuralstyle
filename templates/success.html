@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Neural Style transfer</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+      
+       ul {
+  white-space: nowrap;
+}
+ul, li {
+  
+  list-style: none;
+  display: inline;
+}
+  </style>
+</head>
+<body>
+
+<div>
+  <div class="container text-center">
+    <h2>Neural Style transfer using keras</h2>            
+   <a href="https://nbviewer.jupyter.org/github/fchollet/deep-learning-with-python-notebooks/blob/master/8.3-neural-style-transfer.ipynb" target="_blank">Learn more about Neural Style Transfer using keras</a> 
+  </div>
+</div>
+<div class="container-fluid bg-3 text-center">    
+  <div class="row">
+    <div class="col-sm-2">
+      </div>
+    <div class="col-sm-4"> 
+      <h3>target image</h3>
+      <img src="../static/image/file.jpg" class="img-responsive" alt="Image">
+    </div>
+    <div class="col-sm-4"> 
+      <h3>style image</h3>
+      <img src="../static/image/6.jpg" class="img-responsive" alt="Image">
+    </div>
+  </div>
+     <h3>20 Saved Iteration results after processing our images on keras model</h3>
+    <div class="row">
+    <div class="col-sm-4">
+      </div>
+      <div class="col-sm-8"> 
+    <ul>
+        <li>Iteration 1 loss value: 6794859500.0<img class="img-responsive"  src="../static/result/style_transfer_result_at_iteration_0.png" alt="Image"/></li>
+        <li>Iteration 2 loss value: 2823206700.0<img class="img-responsive"  src="../static/result/style_transfer_result_at_iteration_1.png" alt="Image"/></li>
+        <li>Iteration 3 loss value: 1845776800.0<img class="img-responsive"  src="../static/result/style_transfer_result_at_iteration_2.png" alt="Image"/></li>
+        <li>Iteration 4 loss value: 1416636800.0<img class="img-responsive"  src="../static/result/style_transfer_result_at_iteration_3.png" alt="Image"/></li>
+        <li>Iteration 5 loss value: 1183255000.0<img class="img-responsive"  src="../static/result/style_transfer_result_at_iteration_4.png" alt="Image"/></li>
+        <li>Iteration 6 loss value: 1027241100.0<img class="img-responsive"  src="../static/result/style_transfer_result_at_iteration_5.png" alt="Image"/></li>
+        <li>Iteration 7 loss value: 908611200.0<img class="img-responsive"  src="../static/result/style_transfer_result_at_iteration_6.png" alt="Image"/></li>
+        <li>Iteration 8 loss value: 829851600.0<img class="img-responsive"  src="../static/result/style_transfer_result_at_iteration_7.png" alt="Image"/></li>
+        <li>Iteration 9 loss value: 753737300.0<img class="img-responsive"  src="../static/result/style_transfer_result_at_iteration_8.png" alt="Image"/></li>
+        <li>Iteration 10 loss value: 700829300.0<img class="img-responsive"  src="../static/result/style_transfer_result_at_iteration_9.png" alt="Image"/></li>
+        <li>Iteration 11 loss value: 663257500.0<img class="img-responsive"  src="../static/result/style_transfer_result_at_iteration_10.png" alt="Image"/></li>
+        <li>Iteration 12 loss value: 624967040.0<img class="img-responsive"  src="../static/result/style_transfer_result_at_iteration_11.png" alt="Image"/></li>
+        <li>Iteration 13 loss value: 593010300.0<img class="img-responsive"  src="../static/result/style_transfer_result_at_iteration_12.png" alt="Image"/></li>
+        <li>Iteration 14 loss value: 567771200.0<img class="img-responsive"  src="../static/result/style_transfer_result_at_iteration_13.png" alt="Image"/></li>
+        <li>Iteration 15 loss value: 544806200.0<img class="img-responsive"  src="../static/result/style_transfer_result_at_iteration_14.png" alt="Image"/></li>
+        <li>Iteration 16 loss value: 524660670.0<img class="img-responsive"  src="../static/result/style_transfer_result_at_iteration_15.png" alt="Image"/></li>
+        <li>Iteration 17 loss value: 505418780.0<img class="img-responsive"  src="../static/result/style_transfer_result_at_iteration_16.png" alt="Image"/></li>
+        <li>Iteration 18 loss value: 488173340.0<img class="img-responsive"  src="../static/result/style_transfer_result_at_iteration_17.png" alt="Image"/></li>
+        <li>Iteration 19 loss value: 470494000.0<img class="img-responsive"  src="../static/result/style_transfer_result_at_iteration_18.png" alt="Image"/></li>
+        <li>Iteration 20 loss value: 454678370.0<img class="img-responsive"  src="../static/result/style_transfer_result_at_iteration_19.png" alt="Image"/></li>
+    </ul>
+    </div>
+    <br>
+    <p>Hope you enjoyed it!!!!</p>
+</div>
+<br/>
+<br/>
+</div>
+</body>
+<footer>
+  <p>Made with Love by: Amir Khan</p>
+  <p>Contact information: <a href="mailto:khan.amir504@gmail.com">
+  khan.amir504@gmail.com</a>.</p>
+</footer> 
+</html>

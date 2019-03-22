@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Neural Style transfer</title>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+  </style>
+</head>
+<body>
+<div>
+  <div class="container text-center">
+    <h2>Demo - Neural Style transfer using keras</h2>
+    <p>I can understand the content of the target image and I’ll try to style the target image as per selected style image using deep neural network.</p>     
+  </div>
+</div> 
+<form action="/success" method="post" enctype="multipart/form-data" >
+<div class="row">
+     <div class="col-sm-4">
+  </div>
+  <div class="col-sm-8">
+  <h3>Choose style image</h3><br>
+      <p>
+        <label class="radio-inline"><input type="radio" name="style" value="5" required>Option 6</label>
+      </p>
+      <img src="../static/image/6.jpg" class="img-circle" width="200" height="150" alt="Image">
+     </div>
+    </div>
+<br/>
+<br/>
+<div class="row">
+  <div class="col-sm-4">
+  </div>
+  <div class="col-sm-8"> 
+   <h3>Choose target image</h3><br>   
+      <p>
+        <label class="radio-inline"><input type="radio" name="target" value="5" required>Option 6</label>
+      </p>
+      <img src="../static/image/file.jpg" class="img-circle" width="200" height="150" alt="Image">
+    <input type="submit" value="Analyze" class="btn btn-primary" required>
+  </div> 
+</div>
+</form>
+</div><br>
+</div><br>
+</body>
+ <footer>
+  <p>Made with Love by: Amir Khan</p>
+  <p>Contact information: <a href="mailto:khan.amir504@gmail.com">
+  khan.amir504@gmail.com</a>.</p>
+</footer> 
+</html>
