@@ -19,6 +19,7 @@ Flask app for Neural Style Transfer
 
 ![image](https://raw.githubusercontent.com/Amir22010/neuralstyle/master/back.JPG)
 ![image](https://raw.githubusercontent.com/Amir22010/neuralstyle/master/Capture.PNG)
+![image](https://raw.githubusercontent.com/Amir22010/neuralstyle/master/Capture1.PNG)
 
 
 ## Acknowledgments
