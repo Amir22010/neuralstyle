@@ -2,7 +2,7 @@
 
 Flask app for Neural Style Transfer
 
-![image](https://github.com/p-rit/Neural-Art/blob/master/static/index.png)
+![image](https://raw.githubusercontent.com/Amir22010/neuralstyle/master/front.JPG)
 
 ### Prerequisites
 
@@ -17,8 +17,9 @@ Flask app for Neural Style Transfer
 
 ## Results
 
+![image](https://raw.githubusercontent.com/Amir22010/neuralstyle/master/back.JPG)
 ![image](https://raw.githubusercontent.com/Amir22010/neuralstyle/master/Capture.PNG)
-![image](https://raw.githubusercontent.com/Amir22010/neuralstyle/master/Capture1.PNG)
+
 
 ## Acknowledgments
 * Inspired from [this](https://github.com/fchollet/deep-learning-with-python-notebooks)
