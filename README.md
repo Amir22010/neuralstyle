@@ -22,4 +22,4 @@ Flask app for Neural Style Transfer
 
 
 ## Acknowledgments
-* Inspired from [this](https://github.com/fchollet/deep-learning-with-python-notebooks)
+* Inspired from founder of keras [@fchollet](https://github.com/fchollet/deep-learning-with-python-notebooks)
